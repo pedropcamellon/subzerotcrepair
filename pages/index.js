@@ -6,6 +6,7 @@ import Header from "./../components/headers/light.js"
 import Hero from "./../components/hero/BackgroundAsImage.js";
 import Services from "./../components/features/DashedBorderSixFeatures.js";
 import Features from "./../components/features/ThreeColWithSideImageWithPrimaryBackground.js";
+import WhoWeAre from "./../components/features/TwoColWithTwoHorizontalFeaturesAndButton.js";
 
 
 const HomePage = () => (
@@ -14,6 +15,7 @@ const HomePage = () => (
     <Hero />
     <Services />
     <Features />
+    <WhoWeAre />
   </>
 )
 
