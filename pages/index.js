@@ -8,6 +8,7 @@ import Services from "./../components/features/DashedBorderSixFeatures.js";
 import Features from "./../components/features/ThreeColWithSideImageWithPrimaryBackground.js";
 import WhoWeAre from "./../components/features/TwoColWithTwoHorizontalFeaturesAndButton.js";
 import CallUsNow from "./../components/cta/CallUsNow.js";
+import Footer from "./../components/footers/MiniCenteredFooter.js";
 
 
 const HomePage = () => (
@@ -18,6 +19,7 @@ const HomePage = () => (
     <Features />
     <WhoWeAre />
     <CallUsNow />
+    <Footer />
   </>
 )
 

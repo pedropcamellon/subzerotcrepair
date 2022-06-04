@@ -11,8 +11,6 @@ import { PrimaryButton as PrimaryButtonBase } from "./../../components/misc/Butt
 // import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/briefcase.svg";
 // import { ReactComponent as MoneyIcon } from "feather-icons/dist/icons/dollar-sign.svg";
 
-import WhoSideImg from "./../../public/images/subzero_technician.jpg";
-
 import { BiHdd } from "react-icons/bi";
 import { BiBriefcaseAlt2 } from "react-icons/bi";
 
@@ -72,14 +70,14 @@ export default ({
   phoneNumber = "(786) 543-9382",
   primaryButtonUrl = `tel:${phoneNumber}`,
   primaryButtonText = phoneNumber,
-  
-  imageSrc = WhoSideImg,
   buttonRounded = true,
+  
   imageRounded = true,
   imageBorder = false,
   imageShadow = false,
+  
   textOnLeft = true,
-  features = null,
+  
   iconRoundedFull = true,
   iconFilled = true,
   iconContainerCss = null
@@ -90,7 +88,7 @@ export default ({
    * Change the features variable as you like, add or delete objects
    * `icon` must be a React SVG component. See how BriefcaseIcon is imported above. For a full list of available icons, see Feather Icons.
    */
-  const defaultFeatures = [
+  const features = [
     {
       Icon: <BiBriefcaseAlt2 />,
       title: "Professionalism",
@@ -105,15 +103,12 @@ export default ({
     }
   ];
 
-  if (!features) features = defaultFeatures;
-
   return (
     <Container>
       <TwoColumn>
-        
         <ImageColumn>
           <Image 
-            src={WhoSideImg} 
+            src='/images/subzero_technician.jpg' 
             alt="Subzero technician doing a repair task"
             imageBorder={imageBorder} 
             imageShadow={imageShadow} 
