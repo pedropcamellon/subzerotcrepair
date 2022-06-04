@@ -7,6 +7,7 @@ import Hero from "./../components/hero/BackgroundAsImage.js";
 import Services from "./../components/features/DashedBorderSixFeatures.js";
 import Features from "./../components/features/ThreeColWithSideImageWithPrimaryBackground.js";
 import WhoWeAre from "./../components/features/TwoColWithTwoHorizontalFeaturesAndButton.js";
+import CallUsNow from "./../components/cta/CallUsNow.js";
 
 
 const HomePage = () => (
@@ -16,6 +17,7 @@ const HomePage = () => (
     <Services />
     <Features />
     <WhoWeAre />
+    <CallUsNow />
   </>
 )
 
