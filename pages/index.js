@@ -4,12 +4,16 @@ import React from 'react'
 
 import Header from "./../components/headers/light.js"
 import Hero from "./../components/hero/BackgroundAsImage.js";
+import Services from "./../components/features/DashedBorderSixFeatures.js";
+import Features from "./../components/features/ThreeColWithSideImageWithPrimaryBackground.js";
 
 
 const HomePage = () => (
   <>
     <Header />
     <Hero />
+    <Services />
+    <Features />
   </>
 )
 
