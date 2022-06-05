@@ -59,7 +59,7 @@ const PrimaryButton = styled(PrimaryButtonBase)(props => [
   props.buttonRounded && tw`rounded-full`
 ]);
 
-export default ({
+export default function whoWeAre({
   heading = (
     <>
       We Are a Team of Experienced Professionals
@@ -81,7 +81,7 @@ export default ({
   iconRoundedFull = true,
   iconFilled = true,
   iconContainerCss = null
-}) => {
+}) {
   // The textOnLeft boolean prop can be used to display either the text on left or right side of the image.
 
   /*

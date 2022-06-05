@@ -54,12 +54,12 @@ const Card = styled.div`
   }
 `;
 
-export default ({
+export default function features({
   cards = [],
   heading = "Amazing Features",
   // subheading = "",
   description = "Providing superior technical and customer service throughout many years has enabled us to gain the trust and credibility with our valuable customers."
-}) => {
+}) {
   /*
    * This componets has an array of object denoting the cards defined below. Each object in the cards array can have the key (Change it according to your need, you can also add more objects to have more cards in this feature component) or you can directly pass this using the cards prop:
    *  1) imageSrc - the image shown at the top of the card

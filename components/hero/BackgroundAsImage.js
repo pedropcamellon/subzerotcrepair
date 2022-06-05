@@ -46,12 +46,12 @@ const SlantedBackground = styled.span`
 
 const PrimaryButton = tw.button`px-8 py-3 mt-10 text-sm sm:text-base sm:mt-16 sm:px-8 sm:py-4 bg-gray-100 text-primary-900 font-black rounded shadow transition duration-300 hocus:bg-primary-900 hocus:text-gray-100 focus:shadow-outline`;
 
-export default ({
+export default function hero({
   phoneNumber = "(786) 543-9382",
   primaryButtonUrl = `tel:${phoneNumber}`,
   primaryButtonText = phoneNumber,
   buttonRounded = true
-}) => {
+}) {
   const buttonRoundedCss = buttonRounded && tw`rounded-2xl`;
   // const navLinks = [
   //   <NavLinks key={1}>

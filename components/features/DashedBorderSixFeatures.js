@@ -56,7 +56,7 @@ const DecoratorBlob = null;
 // `;
 
 
-export default () => {
+export default function services() {
   /*
    * This componets has an array of object denoting the cards defined below. Each object in the cards array can have the key (Change it according to your need, you can also add more objects to have more cards in this feature component):
    *  1) imageSrc - the image shown at the top of the card
