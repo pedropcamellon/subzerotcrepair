@@ -27,5 +27,7 @@
     "tailwindcss": "^3.0.24",
     "twin.macro": "^2.8.2"
   },
-  "packageManager": "yarn@3.2.1"
+  "keywords": [],
+  "name": "subzerotcrepair",
+  "description": ""
 }
