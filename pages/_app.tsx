@@ -1,4 +1,4 @@
-import GlobalStyles from './../styles/GlobalStyles'
+import GlobalStyles from '../styles/GlobalStyles'
 import Head from 'next/head'
 import Script from 'next/script'
 
