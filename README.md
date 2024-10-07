@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SubZero TC Repair Website
 
-## Getting Started
+A promotional website for SubZero TC Repair, a refrigeration repair company specializing in SubZero appliances.
 
-First, run the development server:
+![Landing Page](./landing.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Frontend**: Next.js 12 (React framework)
+- **Styling**: Tailwind CSS
+- **Deployment**: Vercel (recommended for Next.js projects)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Purpose
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This website serves as a digital presence for SubZero TC Repair, showcasing their services, expertise, and contact information. It aims to attract potential customers and provide essential information about the company's offerings.
 
-## Learn More
+## Setup
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone [your-repo-url]
+   cd subzero-tc-repair
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. Install dependencies:
 
-## Deploy on Vercel
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Run the development server:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the site.
+
+## Deployment
+
+This project is optimized for deployment on Vercel:
+
+1. Push your code to a GitHub repository.
+2. Connect your GitHub account to Vercel.
+3. Import the project from your GitHub repository.
+4. Vercel will automatically detect it as a Next.js project and set up the build configuration.
+5. Click "Deploy" and your site will be live in minutes.
+
+## Project Structure
+
+- `app/`: Contains the main application code and pages
+- `public/`: Static assets like images and fonts
+- `components/`: Reusable React components
+- `styles/`: Global styles and CSS modules
+
+## Contributing
+
+Contributions are welcome. Please open an issue or submit a pull request for any improvements.
